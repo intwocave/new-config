@@ -1,0 +1,227 @@
+# Tag name          ;  color
+Taiwan              ; #99c1f1
+Philippines         ; #33d17a
+U.S.A.              ; #3584e4
+Russia              ; #1a5fb4
+Japan               ; #e01b24
+Thailand            ; #63452c
+China               ; #ff7800
+Untagged            ; #c0c0c0
+Uzbekistan          ; #26a269
+South Korea         ; #3584e4
+Guam                ; #986a44
+Vietnam             ; #f9f06b
+North Korea         ; #f6d32d
+
+# Frequency ; Name                     ; Modulation          ;  Bandwidth; Tags
+      235000; ?                        ; AM                  ;       8000; China
+      558000; ?                        ; AM                  ;       7000; South Korea
+      594000; NHK R1 - Tokyo           ; AM                  ;       7000; Japan
+      603000; KBS HappyFM - Metro      ; AM                  ;      10000; South Korea
+      612000; NHK R1 - Fukuoka         ; AM                  ;       7000; Japan
+      693000; NHK R2 - Tokyo           ; AM                  ;       5000; Japan
+      711000; KBS 1 Radio              ; AM                  ;      10000; North Korea
+      720000; KBC - Kitakyushu         ; AM                  ;       5000; Japan
+      738000; ?                        ; AM                  ;       5000; South Korea
+     1134000; Bunkahoso                ; AM                  ;       7000; Japan
+     1155000; ?(Japanese)              ; AM                  ;       5000; Japan
+     1170000; ?(Korean)                ; AM                  ;       7000; Untagged
+     1278000; RKB Radio                ; AM                  ;       5000; Japan
+     1323000; China Radio International(Korean); AM                  ;      10000; China
+     1377000; NHK R2 - Fukuoka         ; AM                  ;       8000; Untagged
+     1386000; NHK R2 - Fukuoka         ; AM                  ;       8000; Japan
+     1413000; KBC - Fukuoka            ; AM                  ;      15000; Japan
+     1422000; Radio Nippon             ; AM                  ;      10000; Japan
+     1440000; AFN Yongsan(English)     ; AM                  ;       6400; South Korea
+     1485000; ?                        ; AM                  ;       7400; Japan
+     1512000; NHK R2 - Matsuyama       ; AM                  ;       5000; Japan
+     1557000; ?                        ; AM                  ;      10000; Japan
+     1566000; FEBC Korea               ; AM                  ;      15800; South Korea
+     1593000; CNR 1                    ; AM                  ;      10000; China
+     1602000; NHK 2                    ; AM                  ;       7400; Japan
+     2550000; NHK R1                   ; AM                  ;      10000; Japan
+     2630700; ?                        ; AM                  ;      10000; North Korea
+     2745000; NHK WORLD RADIO JAPAN(English); AM                  ;      10000; Japan
+     3250000; KCBS - Pyongyang         ; AM                  ;      10000; North Korea
+     3320000; PYONGYANG BS             ; AM                  ;      10000; North Korea
+     3480000; Voice of the People      ; AM                  ;      20000; South Korea
+     3910000; Voice of the People(2)   ; AM                  ;      10000; South Korea
+     3930000; Voice of the People(Jamming Included); AM                  ;      10000; South Korea
+     3945000; Voice of the People      ; AM                  ;      10000; South Korea
+     3985000; Echo of Hope(Jamming Included); AM                  ;      10000; South Korea
+     4450000; Voice of the People(3)   ; AM                  ;      10000; South Korea
+     4560000; Voice of the People      ; AM                  ;      10000; North Korea
+     4885000; Echo of Hope             ; AM                  ;      10000; South Korea
+     5905000; ?                        ; AM                  ;      10000; North Korea
+     5925000; ?                        ; AM                  ;      10000; China
+     5945000; ?                        ; AM                  ;      10000; China
+     5955000; China Radio International(English); AM                  ;      10000; China
+     5965000; ?                        ; AM                  ;      10000; South Korea
+     5975000; ?                        ; AM                  ;      10000; South Korea
+     5995000; Echo of Hope             ; AM                  ;      10000; South Korea
+     6000000; ?                        ; AM                  ;       7000; China
+     6045000; Furusato no Kaze         ; AM                  ;       8000; Japan
+     6050000; ?                        ; AM                  ;       7000; Russia
+     6055000; RADIO NIKKEI 1           ; AM                  ;       5000; Japan
+     6065000; CNR 2                    ; AM                  ;       8800; China
+     6075000; CNR 1                    ; AM                  ;      10000; China
+     6090000; CHINA RADIO INTERNATIONAL; AM                  ;      10000; China
+     6100000; ?                        ; AM                  ;       8600; Untagged
+     6105000; ?                        ; AM                  ;       8000; China
+     6110000; Nippon No Kaze(Korean)   ; AM                  ;      10000; Japan
+     6115000; ?                        ; AM                  ;       8000; China
+     6125000; ?                        ; AM                  ;       8000; China
+     6135000; Shiokaze                 ; AM                  ;      10000; Japan
+     6145000; R.TAIWAN INT.(JAMMED)    ; AM                  ;      10000; Taiwan
+     6160000; ?                        ; AM                  ;       8000; North Korea
+     6165000; ?                        ; AM                  ;       8000; South Korea
+     6180000; ?                        ; AM                  ;      10000; China
+     6190000; NHK WORLD RADIO JAPAN(Chinese); AM                  ;      10000; Japan
+     6200000; VOICE OF JINLING         ; AM                  ;      10000; China
+     6250000; Echo of Hope(Jamming Included); AM                  ;      10000; South Korea
+     6350000; Echo of Hope             ; AM                  ;      10000; South Korea
+     6520000; Voice of the People      ; AM                  ;      10000; South Korea
+     6600000; Voice of the People      ; AM                  ;      10000; South Korea
+     7200000; National Unity Radio(Korean); AM                  ;      10000; Taiwan
+     7230000; ?                        ; AM                  ;       6400; China
+     7245000; CNR 2                    ; AM                  ;      10000; China
+     7275000; CNR 1 Voice of China     ; AM                  ;       8000; China
+     7305000; CNR 1 Voice of China     ; AM                  ;      10000; China
+     7315000; CNR 2-CHINA BUSINESS RADIO; AM                  ;      10000; China
+     7360000; CHINA RADIO INTERNATIONAL(Japanese); AM                  ;      10000; China
+     7365000; ?                        ; AM                  ;       5000; China
+     7375000; CNR 2-CHINA BUSINESS RADIO; AM                  ;      10000; China
+     7375000; NHK WORLD RADIO JAPAN    ; AM                  ;      10000; Japan
+     7385000; ?                        ; AM                  ;       5000; China
+     7410000; China Radio International(Japanese); AM                  ;      10000; China
+     7435000; China Radio International(Chinese); AM                  ;      10000; China
+     7470000; ?                        ; AM                  ;      10000; China
+     7480000; ?                        ; AM                  ;      10000; China
+     7665000; ?                        ; AM                  ;      10000; China
+     7720000; ECHO OF HOPE-VOH         ; AM                  ;      10000; South Korea
+     9255000; SOH Xi Wang Zhi Sheng    ; AM                  ;      10000; Taiwan
+     9275000; FEBC i-Radio Liangyou(Chinese); AM                  ;      10000; Philippines
+     9315000; ?                        ; AM                  ;      10000; China
+     9330000; Voice of Wilderness(Korean); AM                  ;      10000; Uzbekistan
+     9405000; VOICE OF AMERICA(Korean) ; AM                  ;      10000; Philippines
+     9465000; VOICE OF AMERICA(Chinese); AM                  ;      10000; Philippines
+     9500000; CNR 1 Voice of China     ; AM                  ;      10000; China
+     9550000; CHINA RADIO INTERNATIONAL(Vietnamese); AM                  ;      10000; China
+     9570000; KBS World Radio          ; AM                  ;      10000; South Korea
+     9580000; WORLD CHRISTIAN BROADC.KNLS; AM                  ;      10000; U.S.A.
+     9585000; China Radio International(Japanese); AM                  ;      20000; China
+     9625000; R.TAIWAN INT.(Vietnamese); AM                  ;      10000; Taiwan
+     9660000; R.TAIWAN INT.(Chinese)   ; AM                  ;      10000; Taiwan
+     9660000; CNR 1 Jamming            ; AM                  ;      10000; China
+     9675000; CHINA RADIO INTERNATIONAL(Russian); AM                  ;      10000; China
+     9755000; CNR 2-CHINA BUSINESS RADIO; AM                  ;      10000; China
+     9785000; CNR 8                    ; AM                  ;      10000; China
+     9785000; KBS WORLD RADIO(English) ; AM                  ;      10000; South Korea
+     9840000; VOICE OF VIETNAM(Japanese); AM                  ;      10000; Vietnam
+     9860000; CNR 1 Voice of China     ; AM                  ;      10000; China
+     9890000; CNR 13(Uyghur)           ; AM                  ;      10000; China
+    11590000; KTWR GUAM(Uyghur)        ; AM                  ;      10000; Guam
+    11630000; CNR 17(Kazakh)           ; AM                  ;      10000; China
+    11740000; CNR 2-CHINA BUSINESS RADIO; AM                  ;      10000; China
+    11765000; SOH Xi Wang Zhi Sheng(Chinese); AM                  ;      10000; Taiwan
+    11765000; CHINA RADIO INTERNATIONAL(English); AM                  ;      10000; China
+    11815000; CHINA RADIO INTERNATIONAL(English); AM                  ;      10000; China
+    11900000; VOICE OF AMERICA(Chinese); AM                  ;      10000; Philippines
+    11975000; SOH Xi Wang Zhi Sheng(Chinese); AM                  ;      10000; Taiwan
+    12015000; Voice of Korea(Russian)  ; AM                  ;      10000; North Korea
+    12045000; VOICE OF AMERICA(Korean) ; AM                  ;      10000; Thailand
+    12080000; VOICE OF AMERICA(Korean) ; AM                  ;      10000; Thailand
+    13210000; ?(English)               ; AM                  ;      10000; Untagged
+    13325000; ?(Japanese)              ; AM                  ;      10000; Untagged
+    13710000; CHINA RADIO INTERNATIONAL(English); AM                  ;      10000; China
+    13770000; CNR 7 RADIO THE GREAT BAY(Cantonese); AM                  ;      10000; China
+    13920000; SOH Xi Wang Zhi Sheng(Chinese); AM                  ;      10000; Taiwan
+    14980000; SOH Xi Wang Zhi Sheng(Chinese); AM                  ;      10000; Taiwan
+    15030000; ?(Chinese)               ; AM                  ;      10000; Untagged
+    15475000; Furusato no kaze(Japanese); AM                  ;      10000; Uzbekistan
+    15800000; SOH Xi Wang Zhi Sheng(Chinese); AM                  ;      10000; Taiwan
+    16720000; VOICE OF AMERICA(Korean) ; AM                  ;      10000; South Korea
+    16825000; ?(Chinese)               ; AM                  ;      10000; Untagged
+    16890000; ?(Russian)               ; AM                  ;      10000; Untagged
+    16900000; ?(Chinese)               ; AM                  ;      10000; Untagged
+    16985000; ?                        ; AM                  ;      10000; Untagged
+    17085000; ?(Chinese)               ; AM                  ;      10000; Untagged
+    17210000; ?                        ; AM                  ;      10000; Untagged
+    18930000; ?(English)               ; AM                  ;      10000; Untagged
+    18940000; ?(Chinese)               ; AM                  ;      10000; Untagged
+    18980000; ?(Chinese)               ; AM                  ;      10000; Untagged
+    19015000; ?(Chinese)               ; AM                  ;      10000; Untagged
+    19095000; ?(Japanese)              ; AM                  ;      10000; Untagged
+    19115000; ?(Japanese)              ; AM                  ;      10000; Untagged
+    19125000; ?                        ; AM                  ;      10000; Untagged
+    19140000; ?(Chinese)               ; AM                  ;      10000; Untagged
+    19220000; ?                        ; AM                  ;      10000; Untagged
+    19250000; ?(Chinese)               ; AM                  ;      10000; Untagged
+    19280000; ?                        ; AM                  ;      10000; Untagged
+    19335000; ?(Chinese)               ; AM                  ;      10000; Untagged
+    19395000; ?(Korean)                ; AM                  ;      10000; Untagged
+    19455000; ?(Chinese)               ; AM                  ;      10000; Untagged
+    19480000; ?                        ; AM                  ;      10000; Untagged
+    19545000; ?(Chinese)               ; AM                  ;      10000; Untagged
+    21080000; ?(Korean)                ; AM                  ;      10000; Untagged
+    21320000; ?(Chinese)               ; AM                  ;      10000; Untagged
+    21365000; ?(Chinese)               ; AM                  ;      10000; Untagged
+    21390000; ?(Chinese)               ; AM                  ;      10000; Untagged
+    21425000; ?                        ; AM                  ;      10000; Untagged
+    21440000; ?(Chinese)               ; AM                  ;      10000; Untagged
+    21485000; ?                        ; AM                  ;      10000; Untagged
+    21495000; ?(Chinese)               ; AM                  ;      10000; Untagged
+    21555000; ?(Chinese)               ; AM                  ;      10000; Untagged
+    21570000; ?(Chinese)               ; AM                  ;      10000; Untagged
+    21600000; Unification Media Group  ; AM                  ;      10000; South Korea
+    22200000; ?                        ; AM                  ;      10000; Untagged
+    22280000; ?                        ; AM                  ;      10000; Untagged
+    22450000; ?(Korean)                ; AM                  ;      10000; Untagged
+    22550000; ?(Korean)                ; AM                  ;      10000; Untagged
+    22600000; ?(Chinese)               ; AM                  ;      10000; Untagged
+    22610000; ?(Chinese)               ; AM                  ;      10000; Untagged
+    22620000; ?(Chinese)               ; AM                  ;      10000; Untagged
+    22645000; ?(N.Korean)              ; AM                  ;      10000; Japan
+    22690000; イルボネパラム(Korean)          ; AM                  ;      10000; Japan
+    22725000; ?(Korean)                ; AM                  ;      10000; Untagged
+    22735000; ?(Chinese)               ; AM                  ;      10000; Untagged
+    22785000; ?(Korean)                ; AM                  ;      10000; Untagged
+    22805000; ?(Korean)                ; AM                  ;      10000; Untagged
+    22835000; ?(Russian)               ; AM                  ;      10000; Untagged
+    22845000; ?(English)               ; AM                  ;      10000; Untagged
+    22855000; ?(Chinese)               ; AM                  ;      10000; Untagged
+    24000000; ?                        ; AM                  ;      10000; Untagged
+    24240000; ?(Korean)                ; AM                  ;      10000; Untagged
+    24815000; ?(Korean)                ; AM                  ;      10000; Untagged
+    24870000; ?(Korean)                ; AM                  ;      10000; Untagged
+    24890000; ?(Korean)                ; AM                  ;      10000; Untagged
+    25320000; ?(Korean)                ; AM                  ;      10000; Untagged
+    25480000; ?                        ; AM                  ;      10000; Untagged
+    25550000; ?                        ; AM                  ;      10000; Untagged
+    27234000; ?(Chinese)               ; AM                  ;      10000; Untagged
+    27387000; ?(Japanese)              ; AM                  ;      10000; Untagged
+    28089000; ?(Korean)                ; AM                  ;      10000; Untagged
+    28197000; ?(Korean)                ; AM                  ;      10000; Untagged
+    89100000; KBS CoolFM               ; WFM (stereo)        ;     200000; South Korea
+    91900000; MBC FM4U                 ; WFM (stereo)        ;     200000; South Korea
+    92700000; YTN FM                   ; WFM (stereo)        ;     160000; South Korea
+    93100000; KBS Classic FM           ; WFM (stereo)        ;     160000; South Korea
+    93900000; CBS FM                   ; WFM (stereo)        ;     200000; South Korea
+    94500000; YTN FM                   ; WFM (stereo)        ;     200000; South Korea
+    95100000; TBS FM                   ; WFM (stereo)        ;     200000; South Korea
+    95900000; MBC Radio                ; WFM (stereo)        ;     200000; South Korea
+    97300000; KBS 1 Radio              ; WFM (stereo)        ;     200000; South Korea
+    98100000; CBS FM                   ; WFM (stereo)        ;     200000; South Korea
+    99100000; 국악방송                     ; WFM (stereo)        ;     200000; South Korea
+    99500000; KBS FM                   ; WFM (stereo)        ;     200000; South Korea
+    99900000; KFM                      ; WFM (stereo)        ;     200000; South Korea
+   100500000; TBN FM                   ; WFM (stereo)        ;     200000; South Korea
+   101300000; TBS eFM                  ; WFM (stereo)        ;     200000; South Korea
+   101900000; BBS                      ; WFM (stereo)        ;     160000; South Korea
+   103500000; SBS LoveFM               ; WFM (stereo)        ;     200000; South Korea
+   104500000; EBS FM                   ; WFM (stereo)        ;     160000; South Korea
+   105300000; 평화방송 FM                  ; WFM (stereo)        ;     160000; South Korea
+   105900000; SBS Power FM             ; WFM (stereo)        ;     200000; South Korea
+   106100000; KBS HappyFM - Metro      ; WFM (stereo)        ;     200000; South Korea
+   106900000; FEBC FM                  ; WFM (stereo)        ;     160000; South Korea
+   107700000; SBS Power FM             ; WFM (stereo)        ;     200000; Untagged

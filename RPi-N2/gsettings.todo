@@ -1,0 +1,2 @@
+# Disable storage-automount when lightdm session started.
+gsettings set org.gnome.desktop.media-handling automount false

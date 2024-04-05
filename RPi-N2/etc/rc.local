@@ -1,0 +1,8 @@
+#!/bin/bash
+
+
+if [ -f /aafirstboot ]; then /aafirstboot start ; fi
+
+su - intwocave -c "cp -r /home/intwocave/.git/dgk /home/intwocave/ramdisk"
+
+exit 0

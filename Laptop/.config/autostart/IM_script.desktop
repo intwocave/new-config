@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Exec=/home/intwocave/.config/autostart/IM_script/startup_cmd.sh
+#Icon=cairo-dock
+Terminal=false
+
+Name=IM_script
