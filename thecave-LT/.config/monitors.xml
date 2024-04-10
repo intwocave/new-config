@@ -7,15 +7,33 @@
       <primary>yes</primary>
       <monitor>
         <monitorspec>
-          <connector>DP-3</connector>
-          <vendor>INN</vendor>
-          <product>ULTRON 2435V</product>
-          <serial>            </serial>
+          <connector>HDMI-1</connector>
+          <vendor>GSM</vendor>
+          <product>LG IPS FULLHD</product>
+          <serial>0x01010101</serial>
         </monitorspec>
         <mode>
           <width>1920</width>
           <height>1080</height>
-          <rate>74.989898681640625</rate>
+          <rate>60</rate>
+        </mode>
+      </monitor>
+    </logicalmonitor>
+    <logicalmonitor>
+      <x>0</x>
+      <y>1080</y>
+      <scale>1.5</scale>
+      <monitor>
+        <monitorspec>
+          <connector>eDP-1</connector>
+          <vendor>LGD</vendor>
+          <product>0x0682</product>
+          <serial>0x00000000</serial>
+        </monitorspec>
+        <mode>
+          <width>1920</width>
+          <height>1200</height>
+          <rate>60.000778198242188</rate>
         </mode>
       </monitor>
     </logicalmonitor>
@@ -40,6 +58,8 @@
         </mode>
       </monitor>
     </logicalmonitor>
+  </configuration>
+  <configuration>
     <logicalmonitor>
       <x>1920</x>
       <y>0</y>
@@ -55,6 +75,25 @@
           <width>1920</width>
           <height>1200</height>
           <rate>60.000778198242188</rate>
+        </mode>
+      </monitor>
+    </logicalmonitor>
+    <logicalmonitor>
+      <x>0</x>
+      <y>0</y>
+      <scale>1</scale>
+      <primary>yes</primary>
+      <monitor>
+        <monitorspec>
+          <connector>DP-3</connector>
+          <vendor>INN</vendor>
+          <product>ULTRON 2435V</product>
+          <serial>            </serial>
+        </monitorspec>
+        <mode>
+          <width>1920</width>
+          <height>1080</height>
+          <rate>74.989898681640625</rate>
         </mode>
       </monitor>
     </logicalmonitor>
