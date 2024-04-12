@@ -1,6 +1,7 @@
 #! /bin/bash
-paplay /home/intwocave/TH_Startup_Sound.ogg &
-gedit /home/intwocave/checklist.txt &
+paplay /home/intwocave/.TH_Startup_Sound.ogg &
+gedit /home/intwocave/Motivation/checklist.txt &
+gedit /home/intwocave/Motivation/Fuan.txt &
 #wineboot &
 #gedit ~/Desktop/生活.txt &
 #sleep 0.1
