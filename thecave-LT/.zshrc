@@ -102,3 +102,6 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 /home/intwocave/.welcome_art.txt
+
+bindkey '^[[1~' beginning-of-line
+bindkey '^[[4~' end-of-line
