@@ -35,6 +35,8 @@ Plugin 'Valloric/YouCompleteMe' " 'Valloric/YouCompleteMe' 수동 플러그인 �
 " Plugin 'davidhalter/jedi-vim'
 " Python Autocomplete를 위한 플러그인
 
+Plugin 'wakatime/vim-wakatime'
+
 " Keep Plugin commands between vundle#begin/end.
 
 " All of your Plugins must be added before the following line
