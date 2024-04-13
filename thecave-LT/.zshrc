@@ -101,6 +101,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+clear
 /home/intwocave/.welcome_art.txt
 
 bindkey '^[[1~' beginning-of-line
