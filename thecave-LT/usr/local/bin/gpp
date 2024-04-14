@@ -1,0 +1,6 @@
+#!/bin/bash
+if [ $# -ne 1 ] ; then
+	echo "gpp: missing file operand"
+else
+	g++ $1.cpp -o $1.out && ./$1.out && rm ./$1.out
+fi
