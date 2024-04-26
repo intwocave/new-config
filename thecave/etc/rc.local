@@ -4,5 +4,6 @@
 if [ -f /aafirstboot ]; then /aafirstboot start ; fi
 
 su - intwocave -c "cp -r /home/intwocave/.git/dgk /home/intwocave/ramdisk"
+su -c "cd /media/FOLIHARD; rm /home/intwocave/ramdisk/lihard_access.log; fatrace -c -t -o /home/intwocave/ramdisk/lihard_access.log &"
 
 exit 0
