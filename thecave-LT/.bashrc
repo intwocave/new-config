@@ -115,7 +115,3 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-
-clear
-
-cat /home/intwocave/.welcome_art.txt
