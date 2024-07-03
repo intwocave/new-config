@@ -5,10 +5,26 @@ configuration {
     show-icons: true;
     // display-window: "Window";
     display-drun: "Search";
-}
 
-@theme "oxide"
+	// dpi: 96;
+}
 
 listview {
     lines: 12;
 }
+
+//@theme "/usr/share/rofi/themes/Adapta-Nokto.rasi"
+
+//@theme "/usr/share/rofi/themes/android_notification.rasi"
+
+//@theme "/usr/share/rofi/themes/Arc-Dark.rasi"
+
+//@theme "/usr/share/rofi/themes/c64.rasi"
+
+//@theme "/usr/share/rofi/themes/fancy.rasi"
+
+//@theme "/usr/share/rofi/themes/lb.rasi"
+
+//@theme "/usr/share/rofi/themes/Monokai.rasi"
+
+@theme "/usr/share/rofi/themes/Monokai_custom.rasi"
