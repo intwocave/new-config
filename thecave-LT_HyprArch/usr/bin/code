@@ -1,0 +1,2 @@
+#!/bin/bash
+code-oss -enable-features=UseOzonePlatform --ozone-platform=wayland --start-minimized
