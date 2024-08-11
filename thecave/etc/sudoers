@@ -45,6 +45,12 @@ Defaults	use_pty
 root	ALL=(ALL:ALL) ALL
 intwocave ALL=(ALL:ALL) ALL
 
+## To run "mount_cryptdisk.sh" without intwocave and root password, following two lines are required
+intwocave ALL=(ALL) NOPASSWD: /home/intwocave/script/mount_cryptdisk.sh
+root ALL=(ALL) NOPASSWD: /home/intwocave/script/mount_cryptdisk.sh
+intwocave ALL=(ALL) NOPASSWD: /home/intwocave/script/umount_cryptdisk.sh
+root ALL=(ALL) NOPASSWD: /home/intwocave/script/umount_cryptdisk.sh
+
 # Members of the admin group may gain root privileges
 %admin ALL=(ALL) ALL
 

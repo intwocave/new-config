@@ -24,7 +24,7 @@ case $value in
 		;;
 esac
 
-cryptsetup open /dev/$sd $disk
-mount /dev/mapper/$disk /media/$disk
+sudo cryptsetup open /dev/$sd $disk
+sudo mount /dev/mapper/$disk /media/$disk
 
 # su -c "cd /media/${disk}; rm /home/intwocave/ramdisk/${disk}_access.log; fatrace -c -t -o /home/intwocave/ramdisk/${disk}_access.log &"

@@ -26,5 +26,5 @@ esac
 
 # su -c "killall -s 9 fatrace"
 
-umount /media/$disk
-cryptsetup close /dev/mapper/$disk
+sudo umount /media/$disk
+sudo cryptsetup close /dev/mapper/$disk
