@@ -8,7 +8,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-#ZSH_THEME="robbyrussell"
+# ZSH_THEME="robbyrussell"
 ZSH_THEME="thecave"
 
 # Set list of themes to pick from when loading at random
@@ -102,4 +102,12 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 clear
-cat /home/intwocave/.welcome_art.txt
+/home/intwocave/.welcome_art.txt
+
+bindkey '^[[1~' beginning-of-line
+bindkey '^[[4~' end-of-line
+bindkey '^[OH' beginning-of-line
+bindkey '^[OF' end-of-line
+
+alias vol='pactl set-sink-volume line_out'
+alias mute='pactl set-sink-mute line_out toggle'
