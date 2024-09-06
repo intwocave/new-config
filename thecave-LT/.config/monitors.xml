@@ -3,56 +3,31 @@
     <logicalmonitor>
       <x>0</x>
       <y>0</y>
-      <scale>1.25</scale>
+      <scale>1</scale>
       <primary>yes</primary>
+      <transform>
+        <rotation>right</rotation>
+        <flipped>no</flipped>
+      </transform>
       <monitor>
         <monitorspec>
-          <connector>eDP-1</connector>
-          <vendor>CSO</vendor>
-          <product>0x1403</product>
-          <serial>0x00000000</serial>
+          <connector>DP-2</connector>
+          <vendor>AOC</vendor>
+          <product>2477W1M</product>
+          <serial>AEGH89A001176</serial>
         </monitorspec>
         <mode>
           <width>1920</width>
-          <height>1200</height>
-          <rate>59.950172424316406</rate>
-        </mode>
-      </monitor>
-    </logicalmonitor>
-    <disabled>
-      <monitorspec>
-        <connector>HDMI-1</connector>
-        <vendor>GSM</vendor>
-        <product>LG IPS FULLHD</product>
-        <serial>0x01010101</serial>
-      </monitorspec>
-    </disabled>
-  </configuration>
-  <configuration>
-    <logicalmonitor>
-      <x>0</x>
-      <y>0</y>
-      <scale>1.25</scale>
-      <primary>yes</primary>
-      <monitor>
-        <monitorspec>
-          <connector>eDP-1</connector>
-          <vendor>CSO</vendor>
-          <product>0x1403</product>
-          <serial>0x00000000</serial>
-        </monitorspec>
-        <mode>
-          <width>1920</width>
-          <height>1200</height>
-          <rate>59.950172424316406</rate>
+          <height>1080</height>
+          <rate>60</rate>
         </mode>
       </monitor>
     </logicalmonitor>
   </configuration>
   <configuration>
     <logicalmonitor>
-      <x>0</x>
-      <y>0</y>
+      <x>1080</x>
+      <y>747</y>
       <scale>1.25</scale>
       <primary>yes</primary>
       <monitor>
@@ -70,9 +45,13 @@
       </monitor>
     </logicalmonitor>
     <logicalmonitor>
-      <x>1920</x>
+      <x>0</x>
       <y>0</y>
       <scale>1</scale>
+      <transform>
+        <rotation>right</rotation>
+        <flipped>no</flipped>
+      </transform>
       <monitor>
         <monitorspec>
           <connector>DP-2</connector>
@@ -92,49 +71,38 @@
     <logicalmonitor>
       <x>0</x>
       <y>0</y>
-      <scale>1</scale>
+      <scale>1.25</scale>
       <primary>yes</primary>
       <monitor>
         <monitorspec>
-          <connector>HDMI-1</connector>
-          <vendor>INN</vendor>
-          <product>ULTRON 2435V</product>
-          <serial>            </serial>
+          <connector>eDP-1</connector>
+          <vendor>CSO</vendor>
+          <product>0x1403</product>
+          <serial>0x00000000</serial>
         </monitorspec>
         <mode>
           <width>1920</width>
-          <height>1080</height>
-          <rate>74.989898681640625</rate>
+          <height>1200</height>
+          <rate>59.950172424316406</rate>
         </mode>
       </monitor>
     </logicalmonitor>
-    <disabled>
-      <monitorspec>
-        <connector>eDP-1</connector>
-        <vendor>CSO</vendor>
-        <product>0x1403</product>
-        <serial>0x00000000</serial>
-      </monitorspec>
-      <monitorspec>
-        <connector>DP-2</connector>
-        <vendor>AOC</vendor>
-        <product>2477W1M</product>
-        <serial>AEGH89A001176</serial>
-      </monitorspec>
-    </disabled>
   </configuration>
   <configuration>
     <logicalmonitor>
       <x>0</x>
       <y>0</y>
       <scale>1</scale>
-      <primary>yes</primary>
+      <transform>
+        <rotation>right</rotation>
+        <flipped>no</flipped>
+      </transform>
       <monitor>
         <monitorspec>
-          <connector>HDMI-1</connector>
-          <vendor>GSM</vendor>
-          <product>LG IPS FULLHD</product>
-          <serial>0x01010101</serial>
+          <connector>DP-2</connector>
+          <vendor>AOC</vendor>
+          <product>2477W1M</product>
+          <serial>AEGH89A001176</serial>
         </monitorspec>
         <mode>
           <width>1920</width>
@@ -143,6 +111,86 @@
         </mode>
       </monitor>
     </logicalmonitor>
+    <logicalmonitor>
+      <x>3000</x>
+      <y>673</y>
+      <scale>1.25</scale>
+      <monitor>
+        <monitorspec>
+          <connector>eDP-1</connector>
+          <vendor>CSO</vendor>
+          <product>0x1403</product>
+          <serial>0x00000000</serial>
+        </monitorspec>
+        <mode>
+          <width>1920</width>
+          <height>1200</height>
+          <rate>59.950172424316406</rate>
+        </mode>
+      </monitor>
+    </logicalmonitor>
+    <logicalmonitor>
+      <x>1080</x>
+      <y>673</y>
+      <scale>1</scale>
+      <primary>yes</primary>
+      <monitor>
+        <monitorspec>
+          <connector>HDMI-1</connector>
+          <vendor>INN</vendor>
+          <product>ULTRON 2435V</product>
+          <serial>            </serial>
+        </monitorspec>
+        <mode>
+          <width>1920</width>
+          <height>1080</height>
+          <rate>74.989898681640625</rate>
+        </mode>
+      </monitor>
+    </logicalmonitor>
+  </configuration>
+  <configuration>
+    <logicalmonitor>
+      <x>0</x>
+      <y>0</y>
+      <scale>1</scale>
+      <transform>
+        <rotation>right</rotation>
+        <flipped>no</flipped>
+      </transform>
+      <monitor>
+        <monitorspec>
+          <connector>DP-2</connector>
+          <vendor>AOC</vendor>
+          <product>2477W1M</product>
+          <serial>AEGH89A001176</serial>
+        </monitorspec>
+        <mode>
+          <width>1920</width>
+          <height>1080</height>
+          <rate>60</rate>
+        </mode>
+      </monitor>
+    </logicalmonitor>
+    <logicalmonitor>
+      <x>1080</x>
+      <y>681</y>
+      <scale>1</scale>
+      <primary>yes</primary>
+      <monitor>
+        <monitorspec>
+          <connector>HDMI-1</connector>
+          <vendor>INN</vendor>
+          <product>ULTRON 2435V</product>
+          <serial>            </serial>
+        </monitorspec>
+        <mode>
+          <width>1920</width>
+          <height>1080</height>
+          <rate>74.989898681640625</rate>
+        </mode>
+      </monitor>
+    </logicalmonitor>
   </configuration>
   <configuration>
     <logicalmonitor>
@@ -164,13 +212,44 @@
         </mode>
       </monitor>
     </logicalmonitor>
-    <disabled>
-      <monitorspec>
-        <connector>DP-2</connector>
-        <vendor>AOC</vendor>
-        <product>2477W1M</product>
-        <serial>AEGH89A001176</serial>
-      </monitorspec>
-    </disabled>
+  </configuration>
+  <configuration>
+    <logicalmonitor>
+      <x>0</x>
+      <y>0</y>
+      <scale>1</scale>
+      <primary>yes</primary>
+      <monitor>
+        <monitorspec>
+          <connector>HDMI-1</connector>
+          <vendor>INN</vendor>
+          <product>ULTRON 2435V</product>
+          <serial>            </serial>
+        </monitorspec>
+        <mode>
+          <width>1920</width>
+          <height>1080</height>
+          <rate>74.989898681640625</rate>
+        </mode>
+      </monitor>
+    </logicalmonitor>
+    <logicalmonitor>
+      <x>1920</x>
+      <y>0</y>
+      <scale>1.25</scale>
+      <monitor>
+        <monitorspec>
+          <connector>eDP-1</connector>
+          <vendor>CSO</vendor>
+          <product>0x1403</product>
+          <serial>0x00000000</serial>
+        </monitorspec>
+        <mode>
+          <width>1920</width>
+          <height>1200</height>
+          <rate>59.950172424316406</rate>
+        </mode>
+      </monitor>
+    </logicalmonitor>
   </configuration>
 </monitors>
