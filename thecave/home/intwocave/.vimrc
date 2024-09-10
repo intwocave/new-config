@@ -35,6 +35,8 @@ Plugin 'Valloric/YouCompleteMe' " 'Valloric/YouCompleteMe' 수동 플러그인 �
 " Plugin 'davidhalter/jedi-vim'
 " Python Autocomplete를 위한 플러그인
 
+Plugin 'wakatime/vim-wakatime'
+
 " Keep Plugin commands between vundle#begin/end.
 
 " All of your Plugins must be added before the following line
@@ -74,4 +76,4 @@ set backspace=indent,eol,start  " more powerful backspacing
 
 set encoding=utf-8
 
-set shellcmdflag=-ic " Vim Shell을 Interactive 상태로 만들어 Alias를 사용할 수 있게 한다.
+" set shellcmdflag=-ic " Vim Shell을 Interactive 상태로 만들어 Alias를 사용할 수 있게 한다.

@@ -3,7 +3,7 @@ disk=0
 sd=0
 ret=0
 
-echo "Which crypted disk do you want to mount? "
+echo "Which crypted disk do you want to umount? "
 echo "1) FOLIHARD"
 echo "2) FALIHARD"
 echo -n "-> "
@@ -24,7 +24,7 @@ case $value in
 		;;
 esac
 
-cryptsetup open /dev/$sd $disk
-mount /dev/mapper/$disk /media/$disk
+# su -c "killall -s 9 fatrace"
 
-su -c "cd /media/${disk}; pwd; rm /home/intwocave/ramdisk/${disk}_access.log; fatrace -c -t -o /home/intwocave/ramdisk/${disk}_access.log &"
+sudo umount /media/$disk
+sudo cryptsetup close /dev/mapper/$disk
