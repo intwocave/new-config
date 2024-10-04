@@ -1,10 +1,20 @@
 # UNCONFIGURED FSTAB FOR BASE SYSTEM
 LABEL=BOOT /media/boot vfat umask=0077 0 1
 UUID=e139ce78-9841-40fe-8823-96a304a09859 / ext4 errors=remount-ro 0 1
-UUID=0b839f2c-dd9e-45a0-b7df-524fda35a0c5 /media/TOSIHARD ext4 defaults,nofail 0 0
-PARTUUID=000002f3-a460-8802-45b9-d201e6050000 /media/LIFEHARD ntfs defaults,nofail 0 0
-UUID=ae6a7375-a984-4a1c-acce-ff0888b0b343 /media/dgk_archive ext4 defaults,nofail 0 0
+
+# swap
+UUID=75892c79-e836-4f16-bc40-7d9da4e48319 none swap sw 0 0
+
+# external storage
+# UUID=0b839f2c-dd9e-45a0-b7df-524fda35a0c5 /media/TOSIHARD ext4 defaults,nofail 0 0
+# PARTUUID=000002f3-a460-8802-45b9-d201e6050000 /media/LIFEHARD ntfs defaults,nofail 0 0
+# UUID=ae6a7375-a984-4a1c-acce-ff0888b0b343 /media/dgk_archive ext4 defaults,nofail 0 0
+
+# tmpfs
 tmpfs /home/intwocave/ramdisk tmpfs defaults,size=128M,nofail 0 0
-/home/intwocave/ramdisk/.mozilla/firefox/h67178i3.default-release/AlternateServices.bin /home/intwocave/.mozilla/firefox/h67178i3.default-release/AlternateServices.bin none bind 0 0
-/home/intwocave/ramdisk/.mozilla/firefox/h67178i3.default-release/cookies.sqlite /home/intwocave/.mozilla/firefox/h67178i3.default-release/cookies.sqlite none bind 0 0
-/home/intwocave/ramdisk/.mozilla/firefox/h67178i3.default-release/cookies.sqlite-wal /home/intwocave/.mozilla/firefox/h67178i3.default-release/cookies.sqlite-wal none bind,nofail 0 0
+
+# bind
+# /home/intwocave/ramdisk/.mozilla/firefox/h67178i3.default-release/AlternateServices.bin /home/intwocave/.mozilla/firefox/h67178i3.default-release/AlternateServices.bin none bind 0 0
+# /home/intwocave/ramdisk/.mozilla/firefox/h67178i3.default-release/cookies.sqlite /home/intwocave/.mozilla/firefox/h67178i3.default-release/cookies.sqlite none bind 0 0
+# /home/intwocave/ramdisk/.mozilla/firefox/h67178i3.default-release/cookies.sqlite-wal /home/intwocave/.mozilla/firefox/h67178i3.default-release/cookies.sqlite-wal none bind,nofail 0 0
+
