@@ -1,8 +1,6 @@
 # ls -l /dev/disk/by-uuid/
 # use blkid
-# lsblk, df -h, findmnt
+# lsblk -f, df -h, findmnt
 
-LIFEHARD: 01D2B145899A3450
-TOSIHARD: 0b839f2c-dd9e-45a0-b7df-524fda35a0c5
-SELIHARD: 3fd33ee6-9263-4ccd-9a66-cc60b435893f
-SALIHARD: bf38772a-0d32-49ab-9fc0-57d3c7dae910
+FOLIHARD: d2b2bfff-52b4-4484-83df-544da8b0ae30
+FALIHARD: f6fa0f9c-66ee-40bf-8b3d-daa2084dd2bf
