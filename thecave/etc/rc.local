@@ -7,5 +7,6 @@ su - intwocave -c "cp -r /home/intwocave/.git/dgk /home/intwocave/ramdisk"
 su - intwocave -c "mkdir -p /home/intwocave/ramdisk/log/ytdl"
 su - intwocave -c "mkdir -p /home/intwocave/ramdisk/.cache/chromium"
 su - intwocave -c "mkdir -p /home/intwocave/ramdisk/.cache/mozilla"
+echo max | tee /sys/fs/cgroup/pids/user.slice/user-1001.slice/pids.max
 
 exit 0
