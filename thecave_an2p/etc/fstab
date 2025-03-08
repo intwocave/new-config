@@ -6,10 +6,10 @@
 #
 # <file system> <mount point>   <type>  <options>       <dump>  <pass>
 # / was on /dev/nvme0n1p3 during curtin installation
-/dev/disk/by-uuid/46e99c2b-2935-4473-80a3-07284c37c896 / ext4 defaults 0 1
+/dev/disk/by-uuid/46e99c2b-2935-4473-80a3-07284c37c896 / ext4 defaults,noatime,discard 0 1
 /dev/disk/by-uuid/7084ebf9-f37d-44e5-8df5-c811cf316833 none swap sw 0 0
 # /home was on /dev/nvme0n1p5 during curtin installation
-/dev/disk/by-uuid/49f8aa9f-dc5c-4862-8673-2fd38543d978 /home ext4 defaults 0 1
+/dev/disk/by-uuid/49f8aa9f-dc5c-4862-8673-2fd38543d978 /home ext4 defaults,noatime,discard 0 1
 # /boot was on /dev/nvme0n1p2 during curtin installation
 /dev/disk/by-uuid/51fd292f-4137-40cb-b55c-e8efa00d871d /boot ext4 defaults 0 1
 # /boot/efi was on /dev/nvme0n1p1 during curtin installation
