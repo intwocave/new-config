@@ -122,3 +122,13 @@ Subsystem	sftp	/usr/lib/openssh/sftp-server
 #	AllowTcpForwarding no
 #	PermitTTY no
 #	ForceCommand cvs server
+
+# 127.0.0.1 (localhost)에서는 모든 사용자가 로그인 가능
+Match Address 127.0.0.1
+    PermitRootLogin yes
+    AllowUsers *
+
+# 외부 IP에서는 intwocave 유저만 로그인 가능
+Match Address 0.0.0.0/0,!127.0.0.1
+    AllowUsers intwocave
+
