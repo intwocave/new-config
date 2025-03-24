@@ -286,7 +286,7 @@ enabled = true
 port    = 7122
 logpath = /var/log/auth.log
 maxretry = 3
-bantime  = 10h
+bantime  = -1
 backend = %(sshd_backend)s
 
 
