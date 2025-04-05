@@ -2,5 +2,6 @@
 
 su - intwocave -c "cp -r /home/intwocave/.git/dgk /home/intwocave/ramdisk"
 su - intwocave -c "mkdir -p /home/intwocave/ramdisk/log/ytdl"
+su - intwocave -c "mkdir -p /home/intwocave/ramdisk/log/neong"
 
 exit 0
