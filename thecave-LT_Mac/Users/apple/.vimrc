@@ -29,7 +29,7 @@ Plugin 'airblade/vim-gitgutter'
 Plugin 'scrooloose/syntastic'
 " Notice syntastic errors
 
-" Plugin 'Valloric/YouCompleteMe' " 'Valloric/YouCompleteMe' 수동 플러그인 설치
+Plugin 'Valloric/YouCompleteMe' " 'Valloric/YouCompleteMe' 수동 플러그인 설치
 " Autocomplete Plugin
 
 " Plugin 'davidhalter/jedi-vim'

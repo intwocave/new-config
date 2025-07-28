@@ -107,7 +107,7 @@ source $ZSH/oh-my-zsh.sh
 clear
 $HOME/.welcome_art.txt
 
-alias vpn="sudo openvpn"
+export PATH="/opt/homebrew/bin:$PATH"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
