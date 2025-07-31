@@ -56,11 +56,11 @@ filetype plugin indent on    " required
 
 syntax on
 set nu " 줄번호
-set tabstop=4 " 탭의 길이
-set softtabstop=4 " 실제 벌어지는 탭의 간격
+set tabstop=2 " 탭의 길이
+set softtabstop=2 " 실제 벌어지는 탭의 간격
 set hlsearch " 하이라이트 서치
-set scrolloff=4 " 스크롤할 때 여분의 공간을 두어 보기 쉽게 한다.
-set shiftwidth=4 "자동 들여쓰기의 너비 설정
+set scrolloff=5 " 스크롤할 때 여분의 공간을 두어 보기 쉽게 한다.
+set shiftwidth=2 "자동 들여쓰기의 너비 설정
 set clipboard=unnamed "리눅스: unnamedplus, 맥: unnamed"
 map <Leader>nt <ESC>:NERDTree<CR>
 " NERDTree의 키 매핑.. 노멀 모드에서 \nt를 입력하면 바로 실행됨
