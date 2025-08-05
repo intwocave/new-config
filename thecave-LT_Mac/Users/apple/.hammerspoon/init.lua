@@ -1,4 +1,4 @@
--- 원하는 키에 바인딩 (예: f18)
+-- f18 키에 바인딩
 hs.hotkey.bind({}, "f18", function()
     local current = hs.keycodes.currentSourceID()
 
@@ -11,7 +11,7 @@ hs.hotkey.bind({}, "f18", function()
     end
 end)
 
--- 원하는 키에 바인딩 (예: cmd-f18)
+-- cmd-f18 키에 바인딩
 hs.hotkey.bind({"cmd"}, "f18", function()
     local current = hs.keycodes.currentSourceID()
 
