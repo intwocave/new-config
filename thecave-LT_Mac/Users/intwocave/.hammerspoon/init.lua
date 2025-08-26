@@ -25,8 +25,18 @@ hs.hotkey.bind({"cmd"}, "f18", function()
 end)
 
 
--- Application shortcuts --
+-- Windows shortcuts --
 
+-- Full screen toggle
+hs.hotkey.bind({}, "F11", function()
+	local win = hs.window.focusedWindow()
+	if win then
+		win:toggleFullScreen()
+	end
+end)
+
+
+-- Application shortcuts --
 
 -- Command + Control + T로 iTerm2 단축 실행
 hs.hotkey.bind({"cmd", "ctrl"}, "T", function()
