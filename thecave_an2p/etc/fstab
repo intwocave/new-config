@@ -17,6 +17,7 @@
 
 #-----------------------------------------------------------------------------#
 
-UUID=ae6a7375-a984-4a1c-acce-ff0888b0b343 /media/dgk_archive ext4 defaults,nofail 0 0
-tmpfs /home/intwocave/ramdisk tmpfs defaults,size=128M,nofail 0 0
-tmpfs /tmp tmpfs defaults,size=5G,nofail 0 0
+# UUID=ae6a7375-a984-4a1c-acce-ff0888b0b343 /media/dgk_archive ext4 defaults,nofail 0 0
+# tmpfs /home/intwocave/ramdisk tmpfs defaults,size=3G,nofail 0 0
+ramfs /home/intwocave/ramdisk ramfs defaults,nofail 0 0
+# tmpfs /tmp tmpfs defaults,noatime,nosuid,nodev,mode=1777,size=3G,nofail 0 0
