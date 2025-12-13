@@ -9,8 +9,8 @@
 
 2(0): ~/script/cctv.sh
 
-3(0): watch -n3 sudo cat /var/log/openvpn/openvpn-status.log
-3(1): watch -n3 "sudo ss -tunap | grep ESTAB | grep -v 127.0.0.1 | awk '{printf \"%-25s %-25s %s\n\", \$5, \$6, \$7}'"
+3(0): sudo watch -n3 cat /var/log/openvpn/openvpn-status.log
+3(1): sudo watch -n3 "ss -tunap | grep ESTAB | grep -v 127.0.0.1 | awk '{printf \"%-25s %-25s %s\n\", \$5, \$6, \$7}'"
 3(2): watch -n3 "w | grep -v \"tmux(\""
 3(3): tail -f /var/log/auth.log
 3(4): sudo iftop
