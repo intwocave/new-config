@@ -1,0 +1,13 @@
+0:NeoNG	1:ytdl	2:cctv	3:moni
+
+0(0): tail -f ~/ramdisk/log/neong/scanner.log
+0(1): tail -f ~/ramdisk/log/neong/server.log
+0(2): cd ~/git/NeoNG/packages/frontend && npm run dev -- --host
+
+1(0): cd ~/ytdl-archive
+1(1): cd ~/script
+
+2(0): ~/script/cctv.sh
+
+3(0): watch -n1 sudo cat /var/log/openvpn/openvpn-status.log
+3(1): watch -n1 sudo w
