@@ -1,4 +1,4 @@
-0:NeoNG	1:ytdl	2:cctv	3:moni
+0:NeoNG	1:ytdl	2:cctv	3:moni 4: rout
 
 0(0): tail -f ~/ramdisk/log/neong/scanner.log
 0(1): tail -f ~/ramdisk/log/neong/server.log
@@ -14,3 +14,5 @@
 3(2): watch -n3 "w | grep -v \"tmux(\""
 3(3): tail -f /var/log/auth.log
 3(4): sudo iftop
+
+4(0): (cd ~/script/cart && ./auto.sh)
