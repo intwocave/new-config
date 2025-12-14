@@ -16,3 +16,4 @@
 3(4): sudo iftop
 
 4(0): (cd ~/script/cart && ./auto.sh)
+4(1): (cd ~/script/show && ./auto.sh)
