@@ -81,6 +81,7 @@ plugins=(
 )
 
 source $ZSH/oh-my-zsh.sh
+source ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # User configuration
 
