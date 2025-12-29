@@ -54,3 +54,5 @@ root	ALL=(ALL:ALL) ALL
 @includedir /etc/sudoers.d
 
 intwocave ALL=(ALL) NOPASSWD: /home/intwocave/script/cctv.sh
+intwocave ALL=(ALL) NOPASSWD: /home/intwocave/script/mount_cryptdisk.sh
+intwocave ALL=(ALL) NOPASSWD: /home/intwocave/script/umount_cryptdisk.sh
