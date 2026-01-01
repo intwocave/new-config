@@ -109,6 +109,8 @@ source ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+alias yt-dlp="yt-dlp --js-runtimes node"
+
 clear
 $HOME/.welcome_art.txt
 
