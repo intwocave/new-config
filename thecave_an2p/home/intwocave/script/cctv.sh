@@ -36,7 +36,7 @@ sleep 2
 
 # Start streaming
 echo "Starting FFmpeg streaming.."
-sudo ffmpeg -f v4l2 -i /dev/video0 -f alsa -i hw:2,0 -c:v libx264 -preset ultrafast -tune zerolatency -c:a aac -b:a 128k -f rtsp rtsp://localhost:8554/cctv > /dev/null 2>&1 &
+sudo ffmpeg -f v4l2 -video_size 640x480 -framerate 25 -i /dev/video0 -f alsa -i hw:2,0 -c:v libx264 -preset ultrafast -tune zerolatency -c:a aac -b:a 128k -f rtsp rtsp://localhost:8554/cctv > /dev/null 2>&1 &
 PID_FFMPEG=$!
 
 # Start motion service
