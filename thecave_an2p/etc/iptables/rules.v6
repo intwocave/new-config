@@ -1,0 +1,28 @@
+*filter
+:INPUT DROP [0:0]
+:FORWARD ACCEPT [0:0]
+:OUTPUT ACCEPT [29:1864]
+-A INPUT -i lo -j ACCEPT
+-A INPUT -m conntrack --ctstate RELATED,ESTABLISHED -j ACCEPT
+-A INPUT -p tcp -m tcp --dport 7122 -j ACCEPT
+-A INPUT -p udp -m udp --dport 1194 -j ACCEPT
+-A INPUT -p tcp -m tcp --dport 9898 -j ACCEPT
+-A INPUT -p tcp -m tcp --dport 5173 -j ACCEPT
+-A INPUT -p tcp -m tcp --dport 5174 -j ACCEPT
+-A INPUT -p tcp -m tcp --dport 445 -j ACCEPT
+-A INPUT -p tcp -m tcp --dport 8554 -j ACCEPT
+-A INPUT -p udp -m udp --dport 8554 -j ACCEPT
+-A INPUT -s 2400:cb00::/32 -p tcp -m multiport --dports 80,443 -j ACCEPT
+-A INPUT -s 2606:4700::/32 -p tcp -m multiport --dports 80,443 -j ACCEPT
+-A INPUT -s 2803:f800::/32 -p tcp -m multiport --dports 80,443 -j ACCEPT
+-A INPUT -s 2405:b500::/32 -p tcp -m multiport --dports 80,443 -j ACCEPT
+-A INPUT -s 2405:8100::/32 -p tcp -m multiport --dports 80,443 -j ACCEPT
+-A INPUT -s 2a06:98c0::/29 -p tcp -m multiport --dports 80,443 -j ACCEPT
+-A INPUT -s 2c0f:f248::/32 -p tcp -m multiport --dports 80,443 -j ACCEPT
+COMMIT
+*nat
+:PREROUTING ACCEPT [52:11511]
+:INPUT ACCEPT [0:0]
+:OUTPUT ACCEPT [2:160]
+:POSTROUTING ACCEPT [2:160]
+COMMIT
