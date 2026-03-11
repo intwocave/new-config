@@ -9,23 +9,11 @@ hs.hotkey.bind({}, "f18", function()
 
 		-- 한국어 or 일본어일 때 -> 영어
     if current == kKorean or current == kJapanese then
-        hs.keycodes.currentSourceID(kEnglish)
+				hs.keycodes.currentSourceID(kEnglish)
 
-				hs.timer.doAfter(0.05, function()
-						if hs.keycodes.currentSourceID() ~= kEnglish then
-								hs.keycodes.currentSourceID(kEnglish)
-						end
-				end)
-				
 		-- 영어일 때 -> 한국어
     elseif current == kEnglish then
-        hs.keycodes.currentSourceID(kKorean)
-
-				hs.timer.doAfter(0.05, function()
-						if hs.keycodes.currentSourceID() ~= kKorean then
-								hs.keycodes.currentSourceID(kKorean)
-						end
-				end)
+				hs.keycodes.currentSourceID(kKorean)
     end
 end)
 
@@ -35,23 +23,11 @@ hs.hotkey.bind({"cmd"}, "f18", function()
 
 		-- 영어 or 한국어일 때 -> 일본어
     if current == kEnglish or current == kKorean then
-        hs.keycodes.currentSourceID(kJapanese)
-
-				hs.timer.doAfter(0.05, function()
-						if hs.keycodes.currentSourceID() ~= kJapanese then
-								hs.keycodes.currentSourceID(kJapanese)
-						end
-				end)
+				hs.keycodes.currentSourceID(kJapanese)
 				
 		-- 일본어일 때 -> 한국어
     elseif current == kJapanese then
-        hs.keycodes.currentSourceID(kKorean)
-
-				hs.timer.doAfter(0.05, function()
-						if hs.keycodes.currentSourceID() ~= kKorean then
-								hs.keycodes.currentSourceID(kKorean)
-						end
-				end)
+				hs.keycodes.currentSourceID(kKorean)
     end
 end)
 
@@ -78,7 +54,21 @@ end)
 -- Control + Command + F로 Finder 단축 실행
 hs.hotkey.bind({"cmd", "ctrl"}, "F", function()
 	-- Finder 실행 (없으면 실행, 있으면 활성화)
-	hs.application.launchOrFocus("Finder")
+	-- 첫 번째 방법
+	-- hs.application.launchOrFocus("Finder") -- 제대로 작동 안 함
+	
+	-- 두 번째 방법
+	hs.execute("open ~")
+
+	-- 세 번째 방법
+	-- local script = [[
+	-- 		tell application "Finder"
+	-- 				make new Finder window
+	-- 				activate
+	-- 		end tell
+	-- 																				    
+	-- ]]
+	-- hs.osascript.applescript(script)
 end)
 
 -- Control + Shift + C로 Firefox 단축 실행
