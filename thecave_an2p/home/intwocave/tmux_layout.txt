@@ -1,4 +1,4 @@
-0:NeoNG	1:ytdl	2:cctv	3:moni 4: rout
+0:NeoNG	1:ytdl	2:cctv	3:moni 4: rout 5: vpn
 
 0(0): tail -f ~/ramdisk/log/neong/scanner.log
 0(1): tail -f ~/ramdisk/log/neong/server.log
@@ -18,3 +18,5 @@
 
 4(0): (cd ~/script/cart && ./auto.sh)
 4(1): (cd ~/script/show && ./auto.sh)
+
+5(0): sudo openvpn ~
