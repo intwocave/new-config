@@ -75,13 +75,12 @@ ZSH_THEME="thecave"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-	git,
-	zsh-autosuggestions,
 	zsh-syntax-highlighting
 )
 
 source $ZSH/oh-my-zsh.sh
 source ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+# source ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # User configuration
 
@@ -109,17 +108,35 @@ source ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias yt-dlp="yt-dlp --js-runtimes node"
-
 clear
 $HOME/.welcome_art.txt
 
+alias yt-dlp="yt-dlp --js-runtimes node"
+alias openvpn="\"/Applications/OpenVPN Connect.app/Contents/MacOS/OpenVPN Connect\""
+
+# Homebrew
 export PATH="/opt/homebrew/bin:$PATH"
+
+# Neovim
+export PATH="$PATH:/Users/intwocave/Library/Neovim/bin"
 
 # Add Visual Studio Code (code)
 export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 
+# For nvm
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# For PostgreSQL
 export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
+export PATH="/opt/homebrew/opt/postgresql@17/bin:$PATH"
+
+# Gemini API Key
+export GEMINI_API_KEY=""
+
+# Added by Antigravity
+export PATH="/Users/intwocave/.antigravity/antigravity/bin:$PATH"
+
+# opencode
+export PATH=/Users/intwocave/.opencode/bin:$PATH
