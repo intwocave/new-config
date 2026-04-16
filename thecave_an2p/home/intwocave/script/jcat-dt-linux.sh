@@ -1,2 +1,2 @@
 #!/bin/bash
-ssh -p 22 hamisien@192.168.0.102
+ssh -p 22 -i /home/intwocave/.ssh/jcat-dt/key hamisien@192.168.0.102
