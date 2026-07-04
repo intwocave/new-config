@@ -4,18 +4,18 @@ local kKorean = "com.apple.inputmethod.Korean.2SetKorean"
 local kJapanese = "com.apple.inputmethod.Kotoeri.RomajiTyping.Japanese"
 
 -- f18 키에 바인딩
-hs.hotkey.bind({}, "f18", function()
-    local current = hs.keycodes.currentSourceID()
-
-		-- 한국어 or 일본어일 때 -> 영어
-    if current == kKorean or current == kJapanese then
-				hs.keycodes.currentSourceID(kEnglish)
-
-		-- 영어일 때 -> 한국어
-    elseif current == kEnglish then
-				hs.keycodes.currentSourceID(kKorean)
-    end
-end)
+-- hs.hotkey.bind({}, "f18", function()
+--     local current = hs.keycodes.currentSourceID()
+-- 
+-- 		-- 한국어 or 일본어일 때 -> 영어
+--     if current == kKorean or current == kJapanese then
+-- 				hs.keycodes.currentSourceID(kEnglish)
+-- 
+-- 		-- 영어일 때 -> 한국어
+--     elseif current == kEnglish then
+-- 				hs.keycodes.currentSourceID(kKorean)
+--     end
+-- end)
 
 -- cmd-f18 키에 바인딩
 hs.hotkey.bind({"cmd"}, "f18", function()
