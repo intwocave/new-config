@@ -31,6 +31,10 @@ hs.hotkey.bind({"cmd"}, "f18", function()
     end
 end)
 
+-- right_option 키에 바인딩
+hs.hotkey.bind({}, "f19", function()
+		hs.keycodes.currentSourceID(kKorean)
+end)
 
 -- Windows shortcuts --
 
