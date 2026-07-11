@@ -31,10 +31,30 @@ hs.hotkey.bind({"cmd"}, "f18", function()
     end
 end)
 
--- right_option 키에 바인딩
-hs.hotkey.bind({}, "f19", function()
-		hs.keycodes.currentSourceID(kKorean)
+-- Right Option 키 단독 입력 감지하여 한국어 입력으로 전환
+local wasRightOptionDown = false
+
+-- 주의: 가비지 컬렉션(GC)에 의해 리스너가 삭제되는 것을 막기 위해 
+-- local 키워드를 빼고 전역 변수로 선언합니다.
+rightOptionFlagsTap = hs.eventtap.new({ hs.eventtap.event.types.flagsChanged }, function(e)
+    local keyCode = e:getKeyCode()
+    local flags = e:getFlags()
+
+    -- 61번은 우측 Option 키
+    if keyCode == 61 then
+        if flags.alt and not wasRightOptionDown then
+            hs.keycodes.currentSourceID(kKorean)
+            wasRightOptionDown = true
+        elseif not flags.alt then
+            wasRightOptionDown = false
+        end
+    end
+
+    return false
 end)
+
+-- 리스너 실행
+rightOptionFlagsTap:start()
 
 -- Windows shortcuts --
 
