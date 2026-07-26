@@ -1,0 +1,11 @@
+./llama-server -m ../../models/mymodels/gemma-4-26B-A4B-it-UD-IQ4_NL.gguf \
+-c 32768 \
+-ngl 99 \
+--temp 1.0 \
+--top-p 0.95 \
+--top-k 64 \
+-ctk tq4_0 -ctv tq4_0 \
+-b 2048 -ub 512 \
+-fa on \
+--host 0.0.0.0 \
+--context-shift

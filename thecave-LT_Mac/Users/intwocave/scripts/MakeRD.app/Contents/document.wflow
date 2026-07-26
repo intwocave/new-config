@@ -59,7 +59,7 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>COMMAND_STRING</key>
-					<string>diskutil eject /Volumes/RD &amp;&amp; rm -r ~/RD; diskutil erasevolume HFS+ 'RD' $(hdiutil attach -nomount ram://2097152) &amp;&amp; ln -s /Volumes/RD ~/RD</string>
+					<string>diskutil eject /Volumes/RD &amp;&amp; rm -r ~/RD; diskutil erasevolume HFS+ 'RD' $(hdiutil attach -nomount ram://18874368) &amp;&amp; ln -s /Volumes/RD ~/RD</string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
 					<key>inputMethod</key>
