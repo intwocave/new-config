@@ -9,9 +9,13 @@
 -A INPUT -p tcp -m tcp --dport 9898 -j ACCEPT
 -A INPUT -p tcp -m tcp --dport 5173 -j ACCEPT
 -A INPUT -p tcp -m tcp --dport 5174 -j ACCEPT
+-A INPUT -p tcp -m tcp --dport 5175 -j ACCEPT
+-A INPUT -p tcp -m tcp --dport 5176 -j ACCEPT
+-A INPUT -p tcp -m tcp --dport 5177 -j ACCEPT
 -A INPUT -p tcp -m tcp --dport 445 -j ACCEPT
 -A INPUT -p tcp -m tcp --dport 8554 -j ACCEPT
 -A INPUT -p udp -m udp --dport 8554 -j ACCEPT
+-A INPUT -s 192.168.0.0/24 -p tcp -m tcp --dport 5432 -j ACCEPT
 -A INPUT -s 173.245.48.0/20 -p tcp -m multiport --dports 80,443 -j ACCEPT
 -A INPUT -s 103.21.244.0/22 -p tcp -m multiport --dports 80,443 -j ACCEPT
 -A INPUT -s 103.22.200.0/22 -p tcp -m multiport --dports 80,443 -j ACCEPT
