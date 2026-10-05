@@ -1,0 +1,3 @@
+#!/bin/bash
+wakeonlan 30:9c:23:8b:30:0b
+wakeonlan -p 9 00:15:5d:23:dc:08
