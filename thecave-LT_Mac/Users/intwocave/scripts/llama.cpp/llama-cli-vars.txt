@@ -1,0 +1,20 @@
+# Qwen3.8 27B Q4
+## Thinking Mode
+~/git/llama.cpp/build/bin/llama-cli \
+--model ~/git/llama.cpp/models/mymodels/Qwen3.8-27B-UD-Q4_K_M.gguf \
+--temp 1.0 \
+--top-p 0.95 \
+--top-k 20 \
+--min-p 0.0 \
+--presence_penalty=0.0 \
+--repetition_penalty=1.0
+
+## Instruct (non-thinking Mode)
+~/git/llama.cpp/build/bin/llama-cli \
+--model ~/git/llama.cpp/models/mymodels/Qwen3.8-27B-UD-Q4_K_M.gguf \
+--temp 0.7 \
+--top-p 0.80 \
+--top-k 20 \
+--min-p 0.0 \
+--presence_penalty=1.5 \
+--repetition_penalty=1.0

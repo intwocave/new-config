@@ -1,0 +1,2 @@
+# 28672 -> 28GB
+sudo sysctl -w iogpu.wired_limit_mb=28672
