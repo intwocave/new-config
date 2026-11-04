@@ -10,13 +10,13 @@ COMMON_OPTS_COSPLAY_NODEL=('--modify-window=1' '--exclude=._*' '--exclude=.fseve
 
 case $value in
 	1)
-		rsync -avhWPn "${COMMON_OPTS[@]}" ~/Downloads/EOSR6M2/ 192.168.0.100:"/mnt/CosGallery/EOSR6M2/"
+		rsync -avhWPn "${COMMON_OPTS[@]}" ~/Downloads/EOSR6M2/102EOSR6/ 192.168.0.100:"/mnt/CosGallery/EOSR6M2/102EOSR6/"
 		rsync -avhWPn "${COMMON_OPTS[@]}" ~/Downloads/done 192.168.0.100:"/mnt/CosGallery/"
 		rsync -avhWPn "${COMMON_OPTS_COSPLAY_NODEL[@]}" "/Volumes/Clow - Data/Users/monakio/Downloads/코스프레촬영" 192.168.0.100:"/mnt/CosGallery/"
 		rsync -avhWPn "${COMMON_OPTS_COSPLAY_NODEL[@]}" "/Volumes/Clow - Data/Users/monakio/Pictures/Lightroom Projects" 192.168.0.100:"/mnt/CosGallery/"
 		;;
 	2)
-		rsync -avhWP "${COMMON_OPTS[@]}" ~/Downloads/EOSR6M2/ 192.168.0.100:"/mnt/CosGallery/EOSR6M2/"
+		rsync -avhWP "${COMMON_OPTS[@]}" ~/Downloads/EOSR6M2/102EOSR6/ 192.168.0.100:"/mnt/CosGallery/EOSR6M2/102EOSR6/"
 		rsync -avhWP "${COMMON_OPTS[@]}" ~/Downloads/done 192.168.0.100:"/mnt/CosGallery/"
 		rsync -avhWP "${COMMON_OPTS_COSPLAY_NODEL[@]}" "/Volumes/Clow - Data/Users/monakio/Downloads/코스프레촬영" 192.168.0.100:"/mnt/CosGallery/"
 		rsync -avhWP "${COMMON_OPTS_COSPLAY_NODEL[@]}" "/Volumes/Clow - Data/Users/monakio/Pictures/Lightroom Projects" 192.168.0.100:"/mnt/CosGallery/"
