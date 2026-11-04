@@ -140,3 +140,17 @@ export PATH="/Users/intwocave/.antigravity/antigravity/bin:$PATH"
 
 # opencode
 export PATH=/Users/intwocave/.opencode/bin:$PATH
+
+# Added by Hugging Face CLI installer
+export PATH="/Users/intwocave/.local/bin:$PATH"
+
+# Added by me for OPENAI Compatible
+# export OPENAI_API_BASE=http://127.0.0.1:8080/v1
+# export OPENAI_BASE_URL=http://128.0.0.1:8080/v1
+# export OPENAI_API_KEY="dummy"
+
+# Added by Antigravity IDE
+export PATH="/Users/intwocave/.antigravity-ide/antigravity-ide/bin:$PATH"
+
+# Added by me
+export vrde_username=""
